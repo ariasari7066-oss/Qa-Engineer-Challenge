@@ -1,3 +1,5 @@
+// se incorpora un plus de testing automatizado API
+
 import { test, expect } from "@playwright/test";
 
 test('API - Crear usuario y consultarlo (JSONPlaceholder)', async ({ request }) => {

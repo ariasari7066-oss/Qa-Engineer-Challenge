@@ -45,9 +45,9 @@ QA-ENGINEER-CHALLENGE/
 │   └── bug-reports.md
 │
 ├── modulo-3 api-testing/         # API testing 
-│   ├── postman/
-│   ├── collections/
-│   └── tests/
+│   ├── Modulo_API                #Evidencia Postman
+│   ├── collections.json
+│   └── test_cases
 │
 ├── README.md
 ```
@@ -129,7 +129,7 @@ Testwares:
 
 ##  Módulo 3 - API Testing
 
-API utilizada: https://reqres.in/
+API utilizada: https://jsonplaceholder.typicode.com/
 
 ###  Pruebas realizadas
 

@@ -1,4 +1,5 @@
-#  Escenarios de Prueba 
+#  Escenarios de Prueba - Modelo gherkin
+---
 
 ## Escenario 1: Envío exitoso
 Dado que el usuario está autenticado  
