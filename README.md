@@ -1,10 +1,10 @@
-# Qa Engineer Challenge - Smoke Test & Functional Testing
+# Qa Engineer Challenge - Smoke Test / Functional Testing / Testing Api´s
 
 ##  Descripción
 
 Este proyecto contiene la resolución de una prueba técnica para QA Integral, incluyendo:
 
-* Automatización de pruebas E2E (Smoke Test) sobre el flujo de login
+* Automatización de pruebas (Smoke Test) sobre el flujo de login
 * Diseño de pruebas funcionales para un producto ficticio (MakersPay)
 * Validación de una API REST
 
@@ -24,16 +24,32 @@ El objetivo es demostrar buenas prácticas de testing, automatización y organiz
 ##  Estructura del proyecto
 
 ```
-.
-├── tests/              # Casos de prueba automatizados
-├── tests-results/      # Evidencia de test automatizados
-├── pages/              # Page Object Model
-├── data/               # Datos de prueba (usuarios)
-├── docs/               # Documentación QA (casos, bugs, estrategia)
-├── playwright.config.ts
-├── tsconfig.json
-├── package.json
-└── README.md
+QA-ENGINEER-CHALLENGE/
+│
+├── .github/
+├── .vscode/
+│
+├── modulo- 1automation/        # Testing Smoke Automatizado
+│   ├── tests/                  # Casos automatizados
+│   ├── pages/                  # Page Object Model
+│   ├── data/                   # Test data (users)
+│   ├── playwright.config.ts
+│   ├── tsconfig.json
+│   └── package.json
+│
+├── modulo-2 functional-testing/ # Testing funcional/documentación
+│   ├── requirements.md
+│   ├── test-strategy.md
+│   ├── test-scenarios.md
+│   ├── test-cases.md
+│   └── bug-reports.md
+│
+├── modulo-3 api-testing/         # API testing 
+│   ├── postman/
+│   ├── collections/
+│   └── tests/
+│
+├── README.md
 ```
 
 ---
@@ -92,12 +108,15 @@ npx playwright show-report
 
 ##  Módulo 2 - Testing Funcional (MakersPay)
 
-Se incluyen en la carpeta `/docs`:
+Se realizó la elaboración de los testware de QA para un producto ficticio: billetera digital MakersPay
 
+Testwares:
+
+* Estrategia de testing
 * Escenarios de prueba
 * Casos de prueba
-* Reporte de bugs
-* Estrategia de testing
+* Reportes de bugs
+
 
 ###  Cobertura
 
@@ -126,7 +145,7 @@ API utilizada: https://reqres.in/
 Este proyecto fue desarrollado aplicando principios de calidad como:
 
 * Diseño de pruebas basado en riesgos
-* Cobertura de escenarios críticos (Smoke Test)
+* Cobertura de escenarios críticos
 * Separación de responsabilidades
 * Código mantenible y escalable
 
@@ -135,6 +154,7 @@ Este proyecto fue desarrollado aplicando principios de calidad como:
 ## 👩‍💻 Autor
 
 Ariadna Arias
-QA Tester | Automation Enthusiast
+QA Tester 
 
 ---
+
